@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get("/hello",(req:Request,res:Response)=>{
-    res.send("Hello ULLAS")
+    res.send("Hello ULLAS Raj")
 })
 app.listen(3000, () => {
     console.log("Server listern on port 3000")
